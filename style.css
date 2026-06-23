@@ -1,0 +1,140 @@
+body {
+    object-fit: cover;
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    background-color: #020131;
+}
+
+.navbar {
+    background-color: #02007c;
+    color: #ffffff;
+    border-radius: 10px;
+    z-index: 9999;
+    position: sticky;
+}
+
+
+
+
+footer {
+    background-color: #000a5f;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-section {
+    margin-bottom: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer-section p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer .footer-links {
+    margin-bottom: 10px;
+}
+
+footer .footer-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #e2e5ff;
+}
+
+footer p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    footer .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer-section h4 {
+        font-size: 14px;
+    }
+    
+    .footer-section p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+.card {
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+}
+
+.card-container {
+    margin: 2%;
+    width: 96%;
+    padding: 1%;
+    background-color: #020157;
+    border-radius: 15px;
+}
+
+
+/* Seção Sobre */
+.about-section h2 {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+
+.about-section .lead {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.about-section p.text-muted {
+    color: #cbd2ff !important; /* Tom azulado claro com excelente contraste no fundo escuro */
+}
+
+.about-section strong {
+    color: #ffffff;
+}
+
+.about-section .border-bottom {
+    border-color: #02007c !important; /* Cor idêntica à sua Navbar */
+    border-width: 4px !important;
+    border-radius: 2px;
+}
+
+/* Responsividade para Dispositivos Móveis */
+@media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 1.9rem;
+    }
+    .about-section .lead {
+        font-size: 1.1rem;
+    }
+    .about-section p {
+        font-size: 0.95rem !important;
+        text-align: justify; /* Melhora o alinhamento de blocos de texto no telemóvel */
+    }
+}
